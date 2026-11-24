@@ -1,0 +1,28 @@
+.home-page__gallery {
+  margin-bottom: 40px;
+}
+
+.home-page__collections {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.home-page__collections img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius);
+  object-fit: cover;
+  background: var(--light-gray-3);
+}
+
+@media (max-width: 800px) {
+  .home-page__collections {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .home-page__gallery {
+    margin-bottom: 24px;
+  }
+}

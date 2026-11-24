@@ -1,0 +1,23 @@
+.product-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 20px;
+  border-radius: var(--radius);
+  background: var(--light-gray-3);
+}
+
+.product-details__item dt {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--light-gray);
+}
+
+.product-details__item dd {
+  margin: 4px 0 0;
+  font-size: 16px;
+  color: var(--dark-gray-2);
+}

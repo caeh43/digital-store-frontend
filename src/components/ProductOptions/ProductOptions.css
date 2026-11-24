@@ -1,0 +1,46 @@
+.product-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.product-options__item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid var(--light-gray-2);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--dark-gray-2);
+  background-color: var(--white);
+  transition: border-color 0.15s;
+}
+
+.product-options__item:hover {
+  border-color: var(--light-gray);
+}
+
+.product-options__item--square {
+  min-width: 46px;
+  height: 46px;
+  padding: 0 12px;
+}
+
+.product-options__item--circle {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+}
+
+.product-options__item--selected,
+.product-options__item--selected:hover {
+  border: 2px solid var(--primary);
+}
+
+@media (max-width: 600px) {
+  .product-options__item {
+    font-size: 20px;
+  }
+}

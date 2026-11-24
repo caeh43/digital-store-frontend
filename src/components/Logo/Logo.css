@@ -1,0 +1,30 @@
+.logo {
+  width: 100%;
+  max-width: 253px;
+  height: auto;
+}
+
+.logo__mark {
+  fill: var(--primary);
+}
+
+.logo__text {
+  font-family: var(--font-family);
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.logo__word--first {
+  fill: var(--dark-gray-2);
+}
+
+.logo__word--second {
+  fill: var(--primary);
+}
+
+.logo--white .logo__mark,
+.logo--white .logo__word--first,
+.logo--white .logo__word--second {
+  fill: var(--white);
+}

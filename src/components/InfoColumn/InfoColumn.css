@@ -1,0 +1,26 @@
+.info-column__title {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.info-column__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.info-column__list li {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--white);
+}
+
+.info-column__list a {
+  text-decoration: none;
+}
+
+.info-column__list a:hover {
+  text-decoration: underline;
+}
