@@ -107,9 +107,8 @@ digital-store/
 
 | Nome | GitHub |
 | --- | --- |
-| _Nome do integrante 1_ | _@usuario_ |
-| _Nome do integrante 2_ | _@usuario_ |
-| _Nome do integrante 3_ | _@usuario_ |
+| Vinicius Caeh Henriques de Mendonca Lima | @Caeh43 |
+
 
 ## Publicar no GitHub
 
